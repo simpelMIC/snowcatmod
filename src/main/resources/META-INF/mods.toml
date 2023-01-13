@@ -1,0 +1,22 @@
+modLoader="javafml"
+loaderVersion="[43,)"
+license="MIT License"
+
+[[mods]]
+modId="snowcatmod"
+version="0.1"
+displayName="snowcatmod"
+credits="Thanks to Kuschelcraft for the snowcat model! Created using mod maker MCreator - https://mcreator.net/about"
+displayURL="https://github.com/simpelMIC/snowcatmod"
+authors="simpelMIC, MCreator"
+
+[[dependencies.snowcatmod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.2]"
+    ordering="NONE"
+    side="BOTH"
+
+
+
+
