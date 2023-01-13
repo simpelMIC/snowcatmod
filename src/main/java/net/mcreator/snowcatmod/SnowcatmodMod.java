@@ -29,6 +29,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.snowcatmod.init.SnowcatmodModItems;
+import net.mcreator.snowcatmod.init.SnowcatmodModBlocks;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -45,6 +48,9 @@ public class SnowcatmodMod {
 		MinecraftForge.EVENT_BUS.register(this);
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		SnowcatmodModBlocks.REGISTRY.register(bus);
+		SnowcatmodModItems.REGISTRY.register(bus);
 
 	}
 

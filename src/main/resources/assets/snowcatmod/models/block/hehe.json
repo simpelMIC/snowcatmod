@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "snowcatmod:blocks/mountains-55067_cropped",
+    "up": "snowcatmod:blocks/mountains-55067_cropped",
+    "north": "snowcatmod:blocks/mountains-55067_cropped",
+    "east": "snowcatmod:blocks/mountains-55067_cropped",
+    "south": "snowcatmod:blocks/mountains-55067_cropped",
+    "west": "snowcatmod:blocks/mountains-55067_cropped",
+    "particle": "snowcatmod:blocks/mountains-55067_cropped"
+  },
+  "render_type": "solid"
+}

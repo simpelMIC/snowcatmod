@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "snowcatmod:block/hehe"
+    },
+    "facing=east": {
+      "model": "snowcatmod:block/hehe",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "snowcatmod:block/hehe",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "snowcatmod:block/hehe",
+      "y": 270
+    }
+  }
+}
